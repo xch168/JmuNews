@@ -1,0 +1,19 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fl_container"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="cn.edu.jmu.news.controller.news.FocusFragment" >
+
+   <com.handmark.pulltorefresh.library.PullToRefreshListView
+	    android:id="@+id/pullToRefreshListView"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_marginLeft="8dp"
+	    android:layout_marginRight="8dp"
+	    android:scrollbars="none"
+	    android:divider="@color/listview_divider"
+	    android:dividerHeight="8dp"/>
+   
+</FrameLayout>

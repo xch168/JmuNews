@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+    
+	<ImageView 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="18dp"
+	    android:background="@drawable/jmu_navdrawer_school_badge"/>
+	
+	<RadioGroup 
+	    android:id="@+id/rg_nav_menus"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_marginTop="20dp"
+	    android:layout_gravity="center_horizontal"
+	    android:orientation="vertical">
+	    
+	    <RadioButton 
+	        android:id="@+id/rbtn_news"
+	        android:layout_width="match_parent"
+	        android:layout_height="60dp"
+	        android:gravity="center_vertical"
+	        android:paddingLeft="60dp"
+	        android:button="@null"
+	        android:drawableLeft="@drawable/jmu_icon_navdrawer_news"
+	        android:drawablePadding="10dp"
+	        android:checked="true"
+	        android:background="@drawable/jmu_xml_selector_navdrawer_menu_bg"
+	        android:text="集大资讯"/>
+	    
+	    <RadioButton
+	        android:id="@+id/rbtn_library"
+	        android:layout_width="match_parent"
+	        android:layout_height="60dp"
+	        android:gravity="center_vertical"
+	        android:paddingLeft="60dp"
+	        android:button="@null"
+	        android:drawableLeft="@drawable/jmu_icon_navdrawer_library"
+	        android:drawablePadding="10dp"
+	        android:background="@drawable/jmu_xml_selector_navdrawer_menu_bg"
+	        android:text="图书馆"/>
+	    
+	    <RadioButton
+	        android:id="@+id/rbtn_jwc"
+	        android:layout_width="match_parent"
+	        android:layout_height="60dp"
+	        android:gravity="center_vertical"
+	        android:paddingLeft="60dp"
+	        android:button="@null"
+	        android:drawableLeft="@drawable/jmu_icon_navdrawer_jwc"
+	        android:drawablePadding="10dp"
+	        android:background="@drawable/jmu_xml_selector_navdrawer_menu_bg"
+	        android:text="教务处"/>
+	    
+	    <RadioButton 
+	        android:id="@+id/rbtn_map"
+	        android:layout_width="match_parent"
+	        android:layout_height="60dp"
+	        android:gravity="center_vertical"
+	        android:paddingLeft="60dp"
+	        android:button="@null"
+	        android:drawableLeft="@drawable/jmu_icon_navdrawer_map"
+	        android:drawablePadding="10dp"
+	        android:background="@drawable/jmu_xml_selector_navdrawer_menu_bg"
+	        android:text="集大地图"/>
+	</RadioGroup>
+	
+	
+</LinearLayout>

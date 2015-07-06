@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <RelativeLayout
+        android:id="@+id/rl_tip_network_abnormal" 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       >
+        
+        <Button 
+            android:id="@+id/btn_refresh"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/jmu_tipview_refresh_btn_bg"/>
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/btn_refresh"
+            android:layout_marginTop="10dp"
+            android:text="网络异常，点击校徽试试"/>
+    </RelativeLayout>
+    
+	<com.mingle.widget.LoadingView
+        app:loadingText="加薪中..."
+        android:id="@+id/loadView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+</FrameLayout>
